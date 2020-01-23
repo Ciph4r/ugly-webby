@@ -5,6 +5,11 @@ HTML {background-image: url(./resource/image/rw.gif);
     text-align: center;
     
 }
+section {
+    background-image: url(./resource/image/ugly.gif);
+    height: 400px;
+    width: auto;
+}
 h1 {
     
     -webkit-background-clip: text;
@@ -14,7 +19,7 @@ h1 {
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
     
-    border-image: url(./resource/image/brw.gif) 30 round;
+    border-image: url(./resource/image/red.gif) 100 round;
     border-style: solid;
     border-width: 50px;
     font-size: 275px;
@@ -24,11 +29,12 @@ h1 {
     text-align: center;
     writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: 'Press Start 2P', cursive;
 }
 
 p {
     border-image: url(./resource/image/brw.gif) 30 round;
-    border-style: ridge;
+    border-style: solid;
     border-width: 50px;
     color: #685206;
     font-family: 'Helvetica Neue', sans-serif;
@@ -53,7 +59,7 @@ ul, ol {
 li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 12px solid #ccc;
-    border-style: ridge;
+    border-style: solid;
 }
    
 li:last-child {
@@ -104,8 +110,11 @@ textarea {
     height: 400px;
 }
 .rf {
-
-    font-family: 'Bangers', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(./resource/image/brt5.gif);
+    font-family: 'Frijole', cursive;
+    font-size: 100px;
 }
 span {
     font-size: 76px;
@@ -116,4 +125,13 @@ span {
     width: 300px;
     height: 300px;
     background-image: url(./resource/image/ugly.gif);
+}
+.box3 {
+    border-image: url(./resource/image/static.gif) 30 round;
+    border-style: solid;
+    border-width: 50px;
+
+}
+.gf {
+    font-family: 'Press Start 2P', cursive;
 }
